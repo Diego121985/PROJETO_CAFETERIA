@@ -649,7 +649,7 @@ margin-right: 200px;
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    width: 800px;
+    width: 100%;
     background-color: black;
     padding-top: 50px;
     padding-left: 50px;
@@ -671,31 +671,29 @@ margin-right: 200px;
     align-items: center;
     justify-content: center;
     background-color: black;
-    width: 800px;
+    width: 100%;
     height: 100vh;
-  padding-bottom: 800px;
+padding-bottom: 1300px;
+padding-left: 25px;
    
    
 }
 .box1{
     width: 350px;
-}
-.clients h2{
-    padding-top: 10px;
+    height: 400px;
+ 
+
+ 
 }
 .card{
-    width: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 800px;
+align-items: center;
 }
 iframe{
-  
-}
-.address{
-    margin-bottom: 800px;
-}
+    padding-top: 0px;
+  width:100%;
 }
 
-
-    /* Fim mobile*/
+}
